@@ -1,0 +1,128 @@
+.trainer-card-wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+  }
+  
+  .trainer-card{
+    background-color: #263238 ;
+    border: 3px solid white;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    width:300px;
+    height: 350px;
+    text-align:center;
+    
+    border-radius: 20px;
+    padding:10px;
+    
+   
+  }
+  
+  
+  
+  .trainer-card-photo{
+    height:70px;
+    width:70px;
+    align-items: center;
+    
+    border-radius:50%;
+    border: 4px double white;
+    
+    margin-top:40px;
+    margin-bottom: 8px;
+    margin-left: 50px;
+    
+    transition: ease-in-out 0.5s;
+  }
+  
+  .trainer-name-title{
+    border-top: 3px double black;
+      border-bottom: 3px double black;
+  color: white;
+    width:80%;
+    padding:10px 0px;
+    margin-left: 20px;
+    
+  }
+  
+  
+  
+  .origin{
+      color: white;
+      font-size: 16px;
+  }
+  .origin1{
+      color:white;
+      font-size: 16px;
+      padding-left: 10px;
+  }
+ 
+  .destination1{
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    
+  }
+  
+  .trainer-card:hover .trainer-about-paragraph-button-wrapper{
+    transform:translateY(0px);
+  }
+  
+  .trainer-card:hover .trainer-card-photo{
+    margin-top:1px;
+  }
+  
+  
+  
+  .trainer-card:hover{
+    transform:scale(1.025);
+   
+  }
+  
+  .button12{
+    background:	#34a853;
+   
+    
+    color:#fff;
+    width:100%;
+    
+    border:none;
+    border-radius: 20px;
+      
+    font-size:1em;
+    
+      padding-top:10px;
+    padding-bottom:10px;
+  }
+  
+  .button:hover{
+   cursor:pointer;
+
+  }
+  
+  @media only screen and (max-width:768px){
+    .trainer-about-paragraph-button-wrapper{
+    transform:translateY(0px);
+    }
+    
+    .trainer-card-wrapper{
+      flex-direction:column;
+    }
+    
+    .trainer-card{
+      margin: 10px auto;
+      width:80%;
+   
+    }
+    
+    .trainer-card-photo{
+      margin-top:0px;
+    }
+    .bg{
+        background-color: #0E6655;
+    }
+  }
